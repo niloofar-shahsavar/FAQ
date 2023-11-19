@@ -1,0 +1,19 @@
+html {
+  background: #f2f1f4;
+  color: #19171c;
+}
+
+.title {
+  font-weight: bold;
+  font-size: large;
+  padding-bottom: 10px;
+}
+
+.description {
+  display: none;
+  padding-bottom: 30px;
+}
+
+.active + .description {
+  display: block;
+}
